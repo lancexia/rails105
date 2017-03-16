@@ -11,7 +11,7 @@ class GroupsController < ApplicationController
   end
 
   def edit
-    
+
   end
 
   def new
@@ -58,5 +58,5 @@ class GroupsController < ApplicationController
       redirect_to root_path, alert: "You have no permission"
     end
 
-
+end
 end
